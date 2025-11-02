@@ -6,7 +6,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>For My Love</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Karla:ital,wght@0,200..800;1,200..800&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
    
 </head>
@@ -15,14 +19,14 @@
     <div class="password-modal" id="passwordModal">
         <div class="password-content">
             <h2>Enter the secret code</h2>
-            <input type="password" class="password-input" id="passwordInput" placeholder="Our special word...">
+            <input type="password" class="password-input" id="passwordInput" placeholder="jeita ami always boli...... guess">
             <button class="submit-btn" id="submitPassword">Enter</button>
         </div>
     </div>
     
     <!-- Welcome Screen -->
     <div class="welcome-screen" id="welcomeScreen">
-        <h1 class="welcome-message">Welcome my love, enjoy your stay</h1>
+        <h1 class="welcome-message">Welcome my love Srestiee, to our little corner</h1>
     </div>
     
     <!-- Main Content -->
@@ -45,20 +49,20 @@
         <div class="content-area">
             <!-- Love Letter Tab -->
             <div class="tab-content active" id="love-letter">
-                <h2>My Dearest</h2>
+                <h2>amr jaan</h2>
                 <div class="letter" id="loveLetter">
                     <div class="letter-header">
                         <h3>A Letter For You</h3>
                         <span>👇 Click to open</span>
                     </div>
                     <div class="letter-content">
-                        <p>My love,Srestiee</p>
-                        <p>Every day with you feels like a beautiful dream that I never want to wake up from. Your smile brightens my darkest days, and your laughter is my favorite melody.</p>
-                        <p>I cherish every moment we spend together, from our silly inside jokes to our deep conversations under the stars. You've shown me what true happiness feels like, and I'm forever grateful to have you in my life.</p>
+                        <p>My love,<span class="sresh" >srestiee</span></p>
+                        <p>My jaan,i cant really express how much i love you.tor sathe thakle ami sobkichu vule jai mone tui chara ar kichui lagbe na amr , tor sathe ami daily koha bolte chai karon ami tor sathe kotha bole stress free feel kori ,tor sathe kotha bole ami actual happiness ta pai, to dike cheye dekhte mon chay. ekhon raater 3:14 baje i am still looking at your picture and smiling 🥰 i feel really lucky to have you</p>
                         <p>No matter where life takes us, always remember that my heart belongs to you.</p>
+
                         <p>ami always tor , tui always amar</p>
                         <p>Forever yours,</p>
-                        <p>Me</p>
+                        <p id="sonch">Shonchii😘</p>
                     </div>
                 </div>
             </div>
@@ -70,7 +74,7 @@
                     <div class="song-icon">🎵</div>
                     <div class="song-info">
                         <h4>Every breath you Take</h4>
-                        <p>by 21 police</p>
+                        <p>by The police</p>
                     </div>
                 </div>
                 <div class="song">
@@ -95,7 +99,7 @@
                     <p>You're mine.. always</p>
                 </div>
                 <div class="note">
-                    <p>i am </p>
+                    <p>Alwyas stay away from from boys ☺️ or i will feel insecure 😞</p>
                 </div>
             </div>
             
@@ -130,14 +134,32 @@
                     <div class="gallery-item">
                         <img src="src/1760462508890~2.jpg" alt="Vibrant pink azalea flowers covering a garden bush">
                     </div>
-                    <div class="gallery-item">
+                    <div class="r4">
                         <img id="pic10" src="src/Screenshot_20251030-212659.png" alt="Vibrant pink azalea flowers covering a garden bush">
                     </div>
-                   <div class="gallery-item">
+                   <div class="r4">
                         <img id="pic10" src="src/Screenshot_20251030-205342.png" alt="Vibrant pink azalea flowers covering a garden bush">
                     </div>
-                     <div class="gallery-item">
+                     <div class="r4">
                         <img id="pic10" src="src/received_835781462722546.jpeg" alt="Vibrant pink azalea flowers covering a garden bush">
+                    </div>
+                     <div class="ss">
+                        <img id="pic10" src="src/Screenshot_20251030-212659.png" alt="Vibrant pink azalea flowers covering a garden bush">
+                    </div>
+                     <div class="ss">
+                        <img id="pic10" src="src/Screenshot_20251030-205342.png" alt="Vibrant pink azalea flowers covering a garden bush">
+                    </div>
+                     <div class="ss">
+                        <img id="pic10" src="src/received_1461154208444235.jpeg" alt="Vibrant pink azalea flowers covering a garden bush">
+                    </div>
+                     <div class="ss">
+                        <img id="pic10" src="src/IMG-20250502-WA0017.jpg" alt="Vibrant pink azalea flowers covering a garden bush">
+                    </div>
+                     <div class="ss">
+                        <img id="pic10" src="src/received_734559206012933 (1) (1).jpeg" alt="Vibrant pink azalea flowers covering a garden bush">
+                    </div>
+                     <div class="ss">
+                        <img id="pic10" src="src/received_1730815981188754.jpeg" alt="Vibrant pink azalea flowers covering a garden bush">
                     </div>
                     </div>
                 </div>
@@ -152,101 +174,6 @@
     <div class="teddy-bear" style="top: 30%; left: 10%;">🧸</div>
     <div class="teddy-bear" style="bottom: 10%; right: 5%;">🧸</div>
     
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Password check
-            const passwordModal = document.getElementById('passwordModal');
-            const welcomeScreen = document.getElementById('welcomeScreen');
-            const mainContent = document.getElementById('mainContent');
-            const passwordInput = document.getElementById('passwordInput');
-            const submitPassword = document.getElementById('submitPassword');
-            
-            submitPassword.addEventListener('click', function() {
-                if (passwordInput.value.toLowerCase() === 'dhoinccha') {
-                    passwordModal.style.opacity = '0';
-                    setTimeout(() => {
-                        passwordModal.style.display = 'none';
-                        welcomeScreen.style.display = 'flex';
-                        
-                        setTimeout(() => {
-                            welcomeScreen.style.opacity = '0';
-                            setTimeout(() => {
-                                welcomeScreen.style.display = 'none';
-                                mainContent.style.display = 'block';
-                            }, 800);
-                        }, 2500);
-                    }, 500);
-                } else {
-                    passwordInput.value = '';
-                    passwordInput.placeholder = 'Try again, my love...';
-                    passwordInput.style.borderColor = '#ff4d4d';
-                    setTimeout(() => {
-                        passwordInput.style.borderColor = '#ffb7c5';
-                        passwordInput.placeholder = 'Our special word...';
-                    }, 1500);
-                }
-            });
-            
-            // Allow Enter key to submit password
-            passwordInput.addEventListener('keypress', function(e) {
-                if (e.key === 'Enter') {
-                    submitPassword.click();
-                }
-            });
-            
-            // Tab switching
-            const tabs = document.querySelectorAll('.tab');
-            const tabContents = document.querySelectorAll('.tab-content');
-            
-            tabs.forEach(tab => {
-                tab.addEventListener('click', function() {
-                    const targetTab = this.getAttribute('data-tab');
-                    
-                    // Update active tab
-                    tabs.forEach(t => t.classList.remove('active'));
-                    this.classList.add('active');
-                    
-                    // Show corresponding content
-                    tabContents.forEach(content => {
-                        content.classList.remove('active');
-                        if (content.id === targetTab) {
-                            content.classList.add('active');
-                        }
-                    });
-                });
-            });
-            
-            // Expandable love letter
-            const loveLetter = document.getElementById('loveLetter');
-            loveLetter.addEventListener('click', function() {
-                this.classList.toggle('expanded');
-            });
-            
-            // Add floating decorative elements
-            function addFloatingElements() {
-                for (let i = 0; i < 15; i++) {
-                    const heart = document.createElement('div');
-                    heart.classList.add('heart');
-                    heart.innerHTML = '❤️';
-                    heart.style.left = Math.random() * 100 + '%';
-                    heart.style.top = Math.random() * 100 + '%';
-                    heart.style.animationDelay = Math.random() * 5 + 's';
-                    document.body.appendChild(heart);
-                }
-                
-                for (let i = 0; i < 5; i++) {
-                    const teddy = document.createElement('div');
-                    teddy.classList.add('teddy-bear');
-                    teddy.innerHTML = '🧸';
-                    teddy.style.left = Math.random() * 100 + '%';
-                    teddy.style.top = Math.random() * 100 + '%';
-                    teddy.style.animationDelay = Math.random() * 5 + 's';
-                    document.body.appendChild(teddy);
-                }
-            }
-            
-            addFloatingElements();
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
