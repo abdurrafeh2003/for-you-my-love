@@ -8,7 +8,7 @@
             font-family: 'Montserrat', sans-serif;
             background-image: url(src/Artboard\ 1.jpg);
           
-            background-repeat:no-repeat ;
+            background-repeat:repeat-y;
             justify-content: center;
             min-height: 100vh;
             display: flex;
